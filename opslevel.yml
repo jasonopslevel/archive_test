@@ -15,8 +15,5 @@ service:
   - name: delete_group/archive_test
     path: "/"
     provider: gitlab
-  - name: jasonopslevel/archive_test
-    path: "/"
-    provider: github
   tools:
   dependencies:
