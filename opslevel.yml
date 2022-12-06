@@ -5,19 +5,13 @@ service:
   lifecycle:
   tier: tier_2
   product:
-  owner: jason_s_team
+  owner: a
   language:
   framework:
   description:
   aliases:
   tags:
   repositories:
-  - name: delete_group/archive_test
-    path: "/"
-    provider: gitlab
-  - name: jasonopslevel/archive_test
-    path: "/"
-    provider: github
   tools:
   dependencies:
 
